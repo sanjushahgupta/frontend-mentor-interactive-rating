@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Outfit:wght@400;700&family=Overpass:ital,wght@0,400;1,700&family=Roboto:wght@500&display=swap');
+    :root{
+        --Orange:hsl(25, 97%, 53%);
+        --White:hsl(0, 0%, 100%);
+        --Light-grey: hsl(217, 12%, 63%);
+        --Medium-grey: hsl(216, 12%, 54%);
+        --Dark-blue: hsl(213, 19%, 18%);
+        --Very-dark-blue: hsl(216, 12%, 8%);
+        --Font-size: 15px;
+    }
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
