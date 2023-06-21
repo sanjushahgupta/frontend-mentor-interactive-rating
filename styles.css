@@ -17,7 +17,50 @@
 
     body{
         font-family: 'Outfit', sans-serif;
+        height: calc(100vh - 1px);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1.25rem;
+    }    
+
+    .container{
+      width:40%;
+      height: auto;
+      background-color: var(--Dark-blue);  
+      color: white;
+      margin-bottom: 1.5rem;
+      padding: 1.25rem;
+      border-radius: 0.625rem;
     }
+    ul  {
+        display: flex;
+        justify-content: space-around;
+    }
+    ul li button{
+        padding: 0.65rem;
+        border-radius: 50%;
+       border:none;
+       margin:0.55rem ;
+    }
+    ul li{
+        text-decoration: none;
+    }
+
+p{
+    color:var(--Light-grey);
+}
     
+.submit{
+    width:95%;
+    text-align: center;
+    background-color:var(--White);
+    color:var(--Orange);
+    border-radius: 30px;
+    border: none;
+    padding: 0.65rem;
+
+}
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
