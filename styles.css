@@ -113,12 +113,10 @@
         color: var(--Orange);
     }
 
-
     .rating{
         background-color: var(--Medium-grey);
         color: var(--Orange);
-        padding-left: 0 0.6rem 0 0.6rem;
-        padding: 0.2rem 0 0.2rem 0;
+        padding: 0.2rem;
         border-radius: 30px;
         margin:0.7rem;
     }
